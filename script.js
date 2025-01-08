@@ -1,3 +1,5 @@
+import {countryList} from './countries.js';
+
 const BASE_URL = "https://latest.currency-api.pages.dev/v1/currencies";
 
 const dropDowns = document.querySelectorAll(".dropdown select");
@@ -6,10 +8,8 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 
-
-
 for(let select of dropDowns) {
-    for(currCode in countryList) {
+    for(let currCode in countryList) {
         let newOption = document.createElement("option");
         newOption.innerText = currCode;
         newOption.value = currCode;
