@@ -16,7 +16,7 @@ A Simple Web App to Convert Currencies with real-time exchange rate and country 
 - NOTE : Currently it is not in Working state Due to some API Issues.. 
 
 ## Author 🧑🏻‍💻
-  Made By Raj Patel
+  **Made By Raj Patel**
 - [GitHub](https://github.com/Raj-Patel7807)
 - [LinkedIn](https://www.linkedin.com/in/raj-patel7807/)
 
